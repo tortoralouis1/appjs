@@ -23,6 +23,36 @@ li {
 nav {
   text-decoration: none;
 }
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+  float: left;
+  position: relative;
+  width:auto;
+}
+.dropdownmenu a {
+  background: #30A6E6;
+  color: #FFFFFF;
+  display: block;
+  font: bold 12px/20px sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+  background: #000000;
+}
 .notfound {
   margin-left: 40%;
   margin-top: 20%;
@@ -38,7 +68,7 @@ h3 {
   margin-left: 15%;
 }
 h2 {
-  margin-left: 3%;
+  margin-left: 2%;
 }
 .divmontre {
   padding-left: 3em;
@@ -50,6 +80,8 @@ h2 {
   background: #fdfdfd;
   min-height: 100vh;
   padding: 10vh 0 0;
+  width: 90%;
+  margin-left: 5%;
 }
 .faq-title h2 {
 position: relative;
@@ -84,21 +116,6 @@ border: none;
 background: none;
 border-bottom: 1px dashed #CEE1F8;
 }
-
-.faq .card .card-header {
-padding: 0px;
-border: none;
-background: none;
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-
-.faq .card .card-header:hover {
-  background: rgba(233, 30, 99, 0.1);
-  padding-left: 10px;
-}
 .faq .card .card-header .faq-title {
 width: 100%;
 text-align: left;
@@ -110,10 +127,6 @@ font-size: 15px;
 letter-spacing: 1px;
 color: #3B566E;
 text-decoration: none !important;
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
 cursor: pointer;
 padding-top: 20px;
 padding-bottom: 20px;

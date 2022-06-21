@@ -22,7 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <header>
-      <nav>
+      <nav class="dropdownmenu">
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Montres">Montres</Link></li>
