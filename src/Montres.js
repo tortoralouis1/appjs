@@ -5,10 +5,9 @@ const Montres =() => {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
+        justifyContent: 'Left',
+        alignItems: 'Left',
         height: '300vh',
-        margin : '100px'
       }}
     >
       <h1>J'aime les Montres</h1>

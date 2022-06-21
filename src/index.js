@@ -7,11 +7,13 @@ import {
   Switch
 } from 'react-router-dom'
 import './index.css';
-import App from './App';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 
 import Home from './Home';
 import Montres from './Montres';
+import NotFound404 from './404';
+import Faq from './Faq';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,12 +24,16 @@ root.render(
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Montres">Montres</Link></li>
+          <li><Link to="/Faq">Faq</Link></li>
+
         </ul>
       </nav>
     </header>
     <Switch>
       <Route exact path="/"><Home /></Route>
       <Route exact path="/Montres"><Montres /></Route>
+      <Route exact path="/Faq"><Faq /></Route>
+      <Route exact path="/*"><NotFound404 /></Route>
     </Switch>
   </Router>
 );

@@ -5,10 +5,9 @@ const Home =() => {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '300vh',
-        margin : '100px'
+        justifyContent: 'Left',
+        alignItems: 'Left',
+        height: '300vh'
       }}
     >
       <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
