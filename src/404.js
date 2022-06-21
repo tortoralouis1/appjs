@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NotFound = () => (
+const NotFound404 = () => (
   <p>
   NotFound works!
 </p>
 )
 
-export default NotFound
+export default NotFound404

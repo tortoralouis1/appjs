@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
+  Switch
 } from 'react-router-dom'
 
 import Home from './Home';
@@ -17,22 +18,20 @@ class App extends Component {
       <Router>
         <div>
           <header>
-            <section>
-              <h1> react-starter </h1>
-              <h2> (React version 16.13.1) </h2>
-            </section>
+
             <nav>
               <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/Montres">About</Link></li>
-                <li><Link to="*">NotFound</Link></li>
+                <li><Link to="/Montres">Montres</Link></li>
               </ul>
             </nav>
           </header>
           <main>
-              <Route exact path="/" component={Home} />
-              <Route path="/Montres" component={Montres} />
-              <Route exact path="*" component={NotFound404} />
+            <Switch>
+              <Route path="/" Component={Home} />
+              <Route path="/Montres" Component={Montres} />
+              <Route path="*" Component={NotFound404} />
+            </Switch>
           </main>
         </div>
       </Router>
