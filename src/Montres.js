@@ -18,7 +18,7 @@ const Montres =() => {
   return (
     <ul>
       {Montres.map((Montres) => (
-        <li key={Montres.id}>{Montres.Marque} {Montres.Prix}</li>
+        <li key={Montres.id}><img src={Montres.Icons} alt=""></img> {Montres.Nom} {Montres.Image} {Montres.Marque} {Montres.Prix}</li>
       ))}
     </ul>
   );

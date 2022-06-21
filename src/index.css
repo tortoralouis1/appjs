@@ -20,7 +20,20 @@ li {
   text-decoration: none;
   padding: 20px;
 }
+nav {
+  text-decoration: none;
+}
 .notfound {
   margin-left: 40%;
   margin-top: 20%;
+}
+.titleprincipal {
+  margin-left: 25%;
+}
+.imgprincipal {
+  margin-left: 30%;
+}
+h3 {
+  width: 70%;
+  margin-left: 15%;
 }

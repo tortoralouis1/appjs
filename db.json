@@ -2,16 +2,20 @@
   "montres": [
     {
       "id": 1,
+      "Nom": "json-server",
       "Marque": "json-server",
-      "Prix": "typicode"
+      "Prix": "typicode",
+      "Icons": "./public/montre1.jpg"
     },
     {
       "id": 2,
+      "Nom": "json-server",
       "Marque": "json-server",
       "Prix": "typicode"
     },
     {
       "id": 3,
+      "Nom": "json-server",
       "Marque": "json-server",
       "Prix": "typicode"
     }

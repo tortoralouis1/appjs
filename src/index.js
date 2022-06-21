@@ -25,7 +25,6 @@ root.render(
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Montres">Montres</Link></li>
           <li><Link to="/Faq">Faq</Link></li>
-
         </ul>
       </nav>
     </header>
