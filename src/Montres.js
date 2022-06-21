@@ -1,16 +1,17 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import Montreslist from './Montreslist';
+
 
 const Montres =() => {
+  const [Montres ] = useState([
+    
+  ]);
+  useEffect(() => {
+    console.log ('use effect');
+  }, []);
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Left',
-        alignItems: 'Left',
-        height: '300vh',
-      }}
-    >
-      <h1>J'aime les Montres</h1>
+    <div className="montres"> 
+      <Montreslist Montres={Montres} title="toutes les montres"/>
     </div>
   );
 };

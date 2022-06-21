@@ -1,0 +1,19 @@
+{
+  "montres": [
+    {
+      "id": 1,
+      "Marque": "json-server",
+      "Prix": "typicode"
+    },
+    {
+      "id": 2,
+      "Marque": "json-server",
+      "Prix": "typicode"
+    },
+    {
+      "id": 3,
+      "Marque": "json-server",
+      "Prix": "typicode"
+    }
+  ]
+}
