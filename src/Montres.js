@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import montre1 from './image/montre1.jpg';
+import event1 from './image/event1.jpg';
 
 
 const Montres =() => {
@@ -20,7 +20,11 @@ const Montres =() => {
     <div className='divmontre'> 
     <ul>
       {Montres.map((Montres) => (
-        <li key={Montres.id}><img src= {montre1} alt=""></img> {Montres.Nom} {Montres.Image} {Montres.Marque} {Montres.Prix}</li>
+        <div>
+        <li key={Montres.id}><img src= {event1} alt=""></img> <h4> {Montres.Nom} </h4></li>
+        <li> <h4> {Montres.Lieu} </h4> </li>
+        <li> <p>{Montres.Description} </p> </li>
+        </div>
       ))}
     </ul>
     </div>

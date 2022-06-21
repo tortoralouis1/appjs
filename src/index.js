@@ -25,7 +25,7 @@ root.render(
       <nav class="dropdownmenu">
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/Montres">Montres</Link></li>
+          <li><Link to="/Montres">Évenements</Link></li>
           <li><Link to="/Faq">Faq</Link></li>
         </ul>
       </nav>
