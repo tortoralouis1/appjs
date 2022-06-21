@@ -1,18 +1,26 @@
 import React, {useState, useEffect} from 'react'
-import Montreslist from './Montreslist';
 
 
 const Montres =() => {
-  const [Montres ] = useState([
+  const [Montres, setMontres ] = useState([
     
   ]);
   useEffect(() => {
-    console.log ('use effect');
+    fetch("http://localhost:4000/montres")
+      .then((res) => res.json())
+      .then((Montres) => {
+        setMontres(Montres);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }, []);
   return (
-    <div className="montres"> 
-      <Montreslist Montres={Montres} title="toutes les montres"/>
-    </div>
+    <ul>
+      {Montres.map((Montres) => (
+        <li key={Montres.id}>{Montres.Marque} {Montres.Prix}</li>
+      ))}
+    </ul>
   );
 };
 
