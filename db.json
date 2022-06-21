@@ -2,22 +2,20 @@
   "montres": [
     {
       "id": 1,
-      "Nom": "json-server",
-      "Marque": "json-server",
-      "Prix": "typicode",
-      "Icons": "./public/montre1.jpg"
+      "Nom": "Montre Luther",
+      "Marque": "Fossil",
+      "Prix": "169,00 €"
     },
     {
       "id": 2,
-      "Nom": "json-server",
-      "Marque": "json-server",
-      "Prix": "typicode"
+      "Nom": "Montre Luther",
+      "Marque": "Fossil",
+      "Prix": "169,00 €"
     },
     {
-      "id": 3,
-      "Nom": "json-server",
-      "Marque": "json-server",
-      "Prix": "typicode"
+      "Nom": "Montre Luther",
+      "Marque": "Fossil",
+      "Prix": "169,00 €"
     }
   ]
 }

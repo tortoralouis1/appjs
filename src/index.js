@@ -16,6 +16,8 @@ import NotFound404 from './404';
 import Faq from './Faq';
 
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>

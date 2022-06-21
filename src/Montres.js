@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
+import montre1 from './image/montre1.jpg';
 
 
 const Montres =() => {
@@ -16,11 +17,13 @@ const Montres =() => {
       });
   }, []);
   return (
+    <div className='divmontre'> 
     <ul>
       {Montres.map((Montres) => (
-        <li key={Montres.id}><img src={Montres.Icons} alt=""></img> {Montres.Nom} {Montres.Image} {Montres.Marque} {Montres.Prix}</li>
+        <li key={Montres.id}><img src= {montre1} alt=""></img> {Montres.Nom} {Montres.Image} {Montres.Marque} {Montres.Prix}</li>
       ))}
     </ul>
+    </div>
   );
 };
 
