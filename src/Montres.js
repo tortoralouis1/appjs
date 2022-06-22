@@ -28,8 +28,9 @@ const Montres =() => {
     } else if (Montres.Nom.toLowerCase().includes(query.toLowerCase())) {
       return Montres;
     }
+    return (null);  
   }).map((Montres) => (
-        <div>
+        <div className='display'>
           <li key={Montres.id}><img src= {event1} alt=""></img> <h4> {Montres.Nom} </h4></li>
           <li> <h4> {Montres.Lieu} </h4> </li>
           <li> <p>{Montres.Description} </p> </li>
@@ -37,7 +38,6 @@ const Montres =() => {
       ))}
     </ul>
     </div>
-
     </>
   );
 };

@@ -7,11 +7,13 @@
       "Description": "Baselworld est le plus grand et sans doute le plus important salon professionnel de la joaillerie et de l'horlogerie au monde. Ici, les entreprises du monde entier y présentent leurs nouveaux produits et innovations aux amateurs et à la presse durant six à huit jours. Jusqu'en 2018, les plus grands fabricants de montres, comme Rolex, Omega, Breitling ou bien encore TAG Heuer, ainsi que des marques moins connues étaient représentés lors de l'événement. "
     },
     {
+      "id": 2,
       "Nom": "Watches & Wonders (SIHH)",
       "Lieu": "Genève",
       "Description": "La deuxième plus grande exposition de joaillerie et d'horlogerie Suisse est appelée Watches & Wonders Geneva, connue aussi sous le nom de SIHH (Salon International de la Haute Horlogerie). L'exposition se tient chaque Janvier depuis 1991 et est un lieu de rencontre entre les acteurs de l'industrie et les fabricants, de même pour les amateurs et les collectionneurs. Ces dernières années, les exposants se composaient de fabricants comme A. Lange & Söhne, Audemars Piguet, Baume & Mercier, Cartier, IWC, entre autres. Plus de 40 000 mètres carrés d'exposition, environ 35 marques de montres et de fabricants indépendants exposent leurs derniers produits et nouveautés attirant à peu près 20 000 visiteurs par an."
     },
     {
+      "id": 2,
       "Nom": "Time to Watches",
       "Lieu": "Genève",
       "Description": "Malgré tous les malheurs causés par la pandémie, un nouvel événement horloger à Genève : Time to Watches a vu le jour grâce à l'approbation des autorités de Genève et de Watches and Wonders. Time to Watches offre une plateforme pour les fabricants qui n'expose pas durant Watches and Wonders afin qu'ils puissent aussi présenter leurs nouvelle créations et collections. De nombreuses marques prestigieuses sont de la partie, entre autres Sinn, Meistersinger, Louis Erard, Chronoswiss, Schwarz Etienne et Perrelet, qui ont déjà tous confirmé leur présence lors de l'événement."
