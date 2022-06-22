@@ -20,7 +20,7 @@ const Montres =() => {
   return (
     <>
     <div className='divmontre'> 
-    <input placeholder="Enter Event Name" onChange={event => setQuery(event.target.value)}/>
+    <input placeholder="Entrez le nom d'un évenement" onChange={event => setQuery(event.target.value)}/>
     <ul>
     {Montres.filter(Montres => {
     if (query === '') {
