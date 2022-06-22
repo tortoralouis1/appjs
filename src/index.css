@@ -18,7 +18,6 @@ ul {
 }
 li {
   text-decoration: none;
-  padding: 20px;
 }
 nav {
   text-decoration: none;
@@ -82,4 +81,10 @@ h2 {
   margin-top: 5%;
   background: rgba(76, 175, 80, 0.05);
   width: 70%;
+}
+input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
