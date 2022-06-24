@@ -19,11 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-<<<<<<< HEAD
-    "start:server": "json-server -p 4000 --watch db.json"
-=======
+    "start:server": "json-server -p 4000 --watch db.json",
     "eslint": "npx eslint ."
->>>>>>> main
   },
   "eslintConfig": {
     "extends": [
@@ -44,11 +41,8 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "cypress": "^10.1.0"
-=======
+    "cypress": "^10.1.0",
     "eslint": "^8.18.0",
     "eslint-plugin-react": "^7.30.0"
->>>>>>> main
   }
 }

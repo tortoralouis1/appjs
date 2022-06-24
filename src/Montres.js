@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React, {useState, useEffect} from 'react';
 import event1 from './image/event1.jpg';
 
