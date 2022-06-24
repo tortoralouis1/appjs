@@ -36,7 +36,6 @@ nav {
 }
 .dropdownmenu ul {
   list-style: none;
-  width: 100%;
 }
 .dropdownmenu li {
   display: inline-block;
@@ -48,7 +47,7 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 17px;
-  text-align: center; /* If you want the text to be centered */
+  text-align: center;
 }
 .dropdownmenu li:hover a {
   background: #000000;
@@ -95,4 +94,8 @@ input {
   padding: 2px 23px 2px 30px;
   outline: 0;
   background-color: #f5f5f5;
+}
+.display {
+  width: 100%;
+  margin-top: 2%;
 }
