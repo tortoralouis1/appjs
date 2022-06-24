@@ -33,7 +33,7 @@ ul {
 }
 li {
   text-decoration: none;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 @keyframes App-logo-spin {
