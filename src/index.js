@@ -17,13 +17,11 @@ import NotFound404 from './404';
 import Faq from './Faq';
 
 
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <header>
-      <nav class="dropdownmenu">
+      <nav className="dropdownmenu">
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Montres">Évenements</Link></li>
