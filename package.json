@@ -19,8 +19,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:server": "json-server -p 4000 --watch db.json",
-    "eslint": "npx eslint ."
+    "eslint": "npx eslint .",
+    "prettier": "npx prettier --write './src/*.{js,jsx,css}'",
+    "prepare": "husky install",
+    "super-commit": "npm run prettier && npm run eslint",
+    "start:server": "json-server -p 4000 --watch db.json"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +46,9 @@
   "devDependencies": {
     "cypress": "^10.1.0",
     "eslint": "^8.18.0",
-    "eslint-plugin-react": "^7.30.0"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.0",
+    "prettier": "2.7.1",
+    "husky": "^8.0.0"
   }
 }
