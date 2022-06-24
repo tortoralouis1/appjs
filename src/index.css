@@ -1,13 +1,98 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+li {
+  text-decoration: none;
+}
+nav {
+  text-decoration: none;
+}
+
+.dropdownmenu {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.dropdownmenu ul,
+.dropdownmenu li {
+  margin: 0 7em;
+  padding: 0 2em;
+}
+.dropdownmenu ul {
+  list-style: none;
+  width: 100%;
+}
+.dropdownmenu li {
+  display: inline-block;
+  position: relative;
+}
+.dropdownmenu a {
+  float: left;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center; /* If you want the text to be centered */
+}
+.dropdownmenu li:hover a {
+  background: #000000;
+}
+.notfound {
+  margin-left: 40%;
+  margin-top: 20%;
+}
+.titleprincipal {
+  margin-top: 2%;
+  text-align: center;
+}
+.imgprincipal {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.7em;
+}
+h2 {
+  margin-left: 2%;
+}
+.divmontre {
+  margin-top: 3em;
+}
+.faq {
+  margin-left: 15%;
+  margin-top: 5%;
+  background: rgba(76, 175, 80, 0.05);
+  width: 70%;
+}
+input {
+  width: 13%;
+  margin-left: 42%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 25px;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
 }
