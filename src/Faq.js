@@ -8,9 +8,9 @@ const Faq =() => {
       <h1> Où se déroule les évenements ?</h1>
       <p> Les lieux varient selon le type de salon, mais la majorité d&apos;entres eux se situent en Suisse</p>
       <h1> Comment référençons-nous les événements ? </h1>
-      <p> Le référencement des évenements se base sur l'ancienneté, le nombre de visiteurs ainsi que la popularité du festival sur les 10 dernières années</p>
+      <p> Le référencement des évenements se base sur l&apos;ancienneté, le nombre de visiteurs ainsi que la popularité du festival sur les 10 dernières années</p>
       <h1> Suis-je remboursé en cas d&apos;annulation ? </h1>
-      <p> Vous serez remboursé dans les 14 jours suivant l&apos;annulation de l&apos;évenement, en cas d&apos;annuation de votre aprt, veuillez nous contacter directement par téléphone </p>
+      <p> Vous serez remboursé dans les 14 jours suivant l&apos;annulation de l&apos;évenement, en cas d&apos;annuation de votre part, veuillez nous contacter directement par téléphone </p>
     </div>
 
   );
