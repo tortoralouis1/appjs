@@ -21,4 +21,3 @@ Vous pouvez également voir les éventuelles "lint" erreurs dans la console.
 
 Lance le Json Server sur l'adresse [http://localhost:4000/montres].
 Json Server ne semble pas fonctionner sur Netlify, il faudra lancer le serveur afin d'afficher les évenements horlogers sur Netlify.
-
