@@ -20,25 +20,43 @@ const Montres =() => {
   }, []);
   return (
     <>
-    <div className='divmontre'> 
-    <input placeholder="Entrez le nom d'un évenement" onChange={event => setQuery(event.target.value)}/>
-    <ul>
-    {Montres.filter(Montres => {
-    if (query === '') {
-      return Montres;
-    } else if (Montres.Nom.toLowerCase().includes(query.toLowerCase())) {
-      return Montres;
-    }
-    return (null);  
-  }).map((Montres) => (
-        <div className='display'>
-          <li key={Montres.id}><img src= {event1} alt=""></img> <h4> {Montres.Nom} </h4></li>
-          <li> <h4> {Montres.Lieu} </h4> </li>
-          <li> <p>{Montres.Description} </p> </li>
-        </div>
-      ))}
-    </ul>
-    </div>
+    <div className="divmontre">
+        <input
+          placeholder="Entrez le nom d'un évenement"
+          onChange={(event) => setQuery(event.target.value)}
+        />
+        <ul className="display">
+          {Montres.filter((Montres) => {
+            if (query === "") {
+              return Montres;
+            } else if (
+              Montres.Nom.toLowerCase().includes(query.toLowerCase())
+            ) {
+              return Montres;
+            }
+            return null;
+          }).map((Montres) => (
+            <div className="card-event">
+              <div>
+                <li key={Montres.id}>
+                  <img src={event1} alt=""></img>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <h4 className="name">{Montres.Nom}</h4>
+                </li>
+                <li>
+                  <h4 className="location">{Montres.Lieu}</h4>
+                </li>
+                <li>
+                  <p className="desc">{Montres.Description}</p>
+                </li>
+              </div>
+            </div>
+          ))}
+        </ul>
+      </div>
     </>
   );
 };
